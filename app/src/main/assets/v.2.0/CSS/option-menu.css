@@ -1,0 +1,1284 @@
+﻿/* menu buttons and the scroll sections */
+
+
+/* APPLIES TO ALL BUTTONS */
+/* WEB */
+
+.web .ButtonContainer {
+    top: calc(38/(var(--baseHeight))*100vh);
+    left: calc(64/(var(--baseWidth))*100vw);
+    right: calc(64/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    position:absolute; 
+    z-index:100;
+    /* background-image: var(--buttonContainerBackground-url);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain; */
+}
+.web .defaultMenuButton {
+    font-size: calc(26/(var(--baseHeight))*100vh);
+    font-family: 'SFPro';
+    color: #ffffff;
+    height: calc(55/(var(--baseHeight))*100vh);
+    margin-right: calc(37/(var(--baseWidth))*100vw);
+    float: left;
+    background: var(--base-grey-light);
+    border-radius: calc(30/(var(--baseWidth))*100vw);
+    cursor: pointer;
+    line-height: calc(55/(var(--baseHeight))*100vh); /* this centers the text in the button (use the height of the button) */
+    padding-right: 1vw;
+}
+.web .defaultMenuButton-Active{ /* this class gets added by javascript when one clicks a button */
+    background: var(--base-yellow);
+    color: #2D2D2D;
+}
+.web .defaultMenuLoader {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: darkgray;
+    float: right;
+    margin-top: 0.75vw;
+    margin-right: 0.5vw;
+    opacity: 0.5;
+    border-radius: 50%;
+    opacity:0; /* hide the loader */
+}
+.web .defaultMenuExtra{
+    filter: invert(1);
+}
+.web .defaultMenuExtra-Active{
+        filter: invert(0);
+}
+
+/* APPLIES TO ALL BUTTONS */
+/* ANDROID TV*/
+
+.androidTV .ButtonContainer {
+    top: calc(38/(var(--baseHeight))*100vh);
+    left: calc(64/(var(--baseWidth))*100vw);
+    right: calc(64/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    position:absolute; 
+    z-index:100;
+    /* background-image: var(--buttonContainerBackground-url);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain; */
+}
+.androidTV .defaultMenuButton {
+    font-size: calc(26/(var(--baseHeight))*100vh);
+    font-family: 'SFPro';
+    color: #ffffff;
+    height: calc(55/(var(--baseHeight))*100vh);
+    margin-right: calc(37/(var(--baseWidth))*100vw);
+    float: left;
+    background: var(--base-grey-light);
+    border-radius: calc(30/(var(--baseWidth))*100vw);
+    cursor: pointer;
+    line-height: calc(55/(var(--baseHeight))*100vh); /* this centers the text in the button (use the height of the button) */
+    padding-right: 1vw;
+}
+.androidTV .defaultMenuButton-Active{ /* this class gets added by javascript when one clicks a button */
+    background: var(--base-yellow);
+    color: #2D2D2D;
+}
+.androidTV .defaultMenuButton:hover{
+    background: var(--base-yellow);
+    color: #2D2D2D;
+}
+.androidTV .defaultMenuButton:hover .defaultMenuExtra{
+    filter: invert(0);
+}
+
+.androidTV .defaultMenuLoader {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: darkgray;
+    float: right;
+    margin-top: 0.75vw;
+    margin-right: 0.5vw;
+    opacity: 0.5;
+    border-radius: 50%;
+    opacity:0; /* hide the loader */
+}
+.androidTV .defaultMenuExtra{
+    filter: invert(1);
+}
+.androidTV .defaultMenuExtra-Active{
+    filter: invert(0);
+}
+
+
+/* button specific overrule above default settings*/
+/* WEB */
+
+.web #ButtonCelebrity {
+    width: calc(171/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .web #ButtonCelebrity #ButtonCelebrityLoader {
+
+    }
+    .web #ButtonCelebrity .defaultMenuExtra {
+        background: url(img/icon_cel.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 12)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.web #ButtonCustomCelebrity {
+
+}
+    .web #ButtonCelebrity #ButtonCelebrityLoader {
+
+    }
+    .web #ButtonCelebrity .defaultMenuExtra {
+
+    }
+
+.web #ButtonProduct {
+    width: calc(182/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .web #ButtonProduct #ButtonProductLoader{
+
+    }
+    .web #ButtonProduct .defaultMenuExtra {
+        background: url(img/icon_t-shirt.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 15.37)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.web #ButtonCustomProduct {
+    width: calc(149/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .web #ButtonCustomProduct #ButtonCustomProductLoader{
+
+    }
+    .web #ButtonCustomProduct .defaultMenuExtra {
+        background: url(img/icon_acc.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 10)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.web #ButtonLivePoll {
+    width: calc(160/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .web #ButtonLivePoll #ButtonLivePollLoader {
+
+    }
+    .web #ButtonLivePoll #ButtonLivePollExtra {
+
+    }
+    .web #ButtonLivePoll .defaultMenuExtra {
+        background: url(img/icon_vote.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 15.37)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.web #ButtonMusic {
+    width: calc(150/(var(--baseWidth))*100vw);
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.9 + 5)/(var(--baseWidth))*100vw); /* calculate the distance from the bottom left edge */
+}
+    .web #ButtonMusic #ButtonMusicLoader {
+
+    }
+    .web #ButtonMusic .defaultMenuExtra {
+        background: url(img/icon_music.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 15.37)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.web #ButtonFavorites {
+    /* in principe this button is not used */
+
+}
+    .web #ButtonFavorites #ButtonFavoritesLoader {
+
+    }
+    .web #ButtonFavorites .defaultMenuExtra {
+
+    }
+
+.web #ButtonCelebrityVideoOverview{
+    /* margin-top: 1vw; /*RELATIVE TO THE #BUTTON CELEBRITY
+    margin-left: 4vw;
+    animation: slide-in-left-celebrity-custom 1.5s ease-out; */
+}
+
+/* button specific overrule above default settings*/
+/* ANDROID TV*/
+
+.androidTV #ButtonCelebrity {
+    /* width: calc(171/(var(--baseWidth))*100vw); */
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .androidTV #ButtonCelebrity #ButtonCelebrityLoader {
+
+    }
+    .androidTV #ButtonCelebrity .defaultMenuExtra {
+        background: url(img/icon_cel.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 12)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.androidTV #ButtonCustomCelebrity {
+
+}
+    .androidTV #ButtonCelebrity #ButtonCelebrityLoader {
+
+    }
+    .androidTV #ButtonCelebrity .defaultMenuExtra {
+
+    }
+
+.androidTV #ButtonProduct {
+    /* width: calc(182/(var(--baseWidth))*100vw); */
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .androidTV #ButtonProduct #ButtonProductLoader{
+
+    }
+    .androidTV #ButtonProduct .defaultMenuExtra {
+        background: url(img/icon_t-shirt.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 15.37)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.androidTV #ButtonCustomProduct {
+    /* width: calc(149/(var(--baseWidth))*100vw); */
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .androidTV #ButtonCustomProduct #ButtonCustomProductLoader{
+
+    }
+    .androidTV #ButtonCustomProduct .defaultMenuExtra {
+        background: url(img/icon_acc.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 10)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.androidTV #ButtonLivePoll {
+    /* width: calc(160/(var(--baseWidth))*100vw); */
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.97 + 5)/(var(--baseWidth))*100vw);
+}
+    .androidTV #ButtonLivePoll #ButtonLivePollLoader {
+
+    }
+    .androidTV #ButtonLivePoll #ButtonLivePollExtra {
+
+    }
+    .androidTV #ButtonLivePoll .defaultMenuExtra {
+        background: url(img/icon_vote.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 15.37)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.androidTV #ButtonMusic {
+    /* width: calc(150/(var(--baseWidth))*100vw); */
+    height: calc(55/(var(--baseHeight))*100vh);
+    padding-left: calc((11.16 + 22.72 + 11.9 + 5)/(var(--baseWidth))*100vw); /* calculate the distance from the bottom left edge */
+}
+    .androidTV #ButtonMusic #ButtonMusicLoader {
+
+    }
+    .androidTV #ButtonMusic .defaultMenuExtra {
+        background: url(img/icon_music.svg);
+        background-position: center center;
+        background-size: cover; 
+        margin-top: calc((55 - 15.37)/var(--baseHeight)*-100vh); /* height of the button - offset from the top */
+        margin-left: calc((22.72 + 11.97)/(var(--baseWidth))*-100vw); /* width of the button + margin of the button */
+        width: calc(22.72/(var(--baseWidth))*100vw);
+        height: calc(28.11/var(--baseHeight)*100vh);
+    }
+
+.androidTV #ButtonFavorites {
+    /* in principe this button is not used */
+
+}
+    .androidTV #ButtonFavorites #ButtonFavoritesLoader {
+
+    }
+    .androidTV #ButtonFavorites .defaultMenuExtra {
+
+    }
+
+.androidTV #ButtonCelebrityVideoOverview{
+    /* margin-top: 1vw; /*RELATIVE TO THE #BUTTON CELEBRITY
+    margin-left: 4vw;
+    animation: slide-in-left-celebrity-custom 1.5s ease-out; */
+}
+
+
+/* ACTIVE BUTTONS */
+/* WEB */
+
+.web #activeButtonContainer {
+
+}
+.web #activeMenuButton01 {
+
+}
+    .web #activeMenuButton01 .activeButtonTitle {
+
+    }
+    .web #activeMenuButton01 .defaultMenuExtra {
+
+    }
+.web #activeMenuButton02 {
+
+}
+    .web #activeMenuButton02 .activeButtonTitle {
+
+    }
+    .web #activeMenuButton02 .defaultMenuExtra {
+
+    }
+.web #activeMenuButton03 {
+
+}
+    .web #activeMenuButton03 .activeButtonTitle {
+
+    }
+    .web #activeMenuButton03 .defaultMenuExtra {
+
+    }
+.web #activeMenuButton04 {
+
+}
+    .web #activeMenuButton04 .activeButtonTitle {
+
+    }
+    .web #activeMenuButton04 .defaultMenuExtra {
+
+    }
+.web #activeMenuButton05 {
+
+}
+    .web #activeMenuButton05 .activeButtonTitle {
+
+    }
+    .web #activeMenuButton05 .defaultMenuExtra {
+
+    }
+
+/* ACTIVE BUTTONS */
+/* ANDROID TV*/
+
+.androidTV #activeButtonContainer {
+
+}
+.androidTV #activeMenuButton01 {
+
+}
+    .androidTV #activeMenuButton01 .activeButtonTitle {
+
+    }
+    .androidTV #activeMenuButton01 .defaultMenuExtra {
+
+    }
+.androidTV #activeMenuButton02 {
+
+}
+    .androidTV #activeMenuButton02 .activeButtonTitle {
+
+    }
+    .androidTV #activeMenuButton02 .defaultMenuExtra {
+
+    }
+.androidTV #activeMenuButton03 {
+
+}
+    .androidTV #activeMenuButton03 .activeButtonTitle {
+
+    }
+    .androidTV #activeMenuButton03 .defaultMenuExtra {
+
+    }
+.androidTV #activeMenuButton04 {
+
+}
+    .androidTV #activeMenuButton04 .activeButtonTitle {
+
+    }
+    .androidTV #activeMenuButton04 .defaultMenuExtra {
+
+    }
+.androidTV #activeMenuButton05 {
+
+}
+    .androidTV #activeMenuButton05 .activeButtonTitle {
+
+    }
+    .androidTV #activeMenuButton05 .defaultMenuExtra {
+
+    }
+
+/* DIRECT PURCHASE BUTTON */
+/* this button is added under the custom product scroll section*/
+/* WEB*/
+
+.web .MenuShoppingListButton {
+    width: 89.3vw;
+    left: -1vw;
+    font-size: 1.3vw;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 3vw;
+    padding: 0 0.1vw;
+    margin: 0.8vw 0 0 0.8vw;
+    background-color: rgba(0, 0, 0, .4);
+    border: solid 1px #fff;
+    border-radius: 0vw;
+    text-align: center;
+    cursor: pointer;
+}
+.web .MenuShoppingListButton a:visited,
+.web .MenuShoppingListButton a:link,
+.web .MenuShoppingListButton a:active {
+        color: #ffffff;
+}
+
+/* DIRECT PURCHASE BUTTON */
+/* this button is added under the custom product scroll section*/
+/* ANDROID TV*/
+
+.androidTV .MenuShoppingListButton {
+    width: 89.3vw;
+    left: -1vw;
+    font-size: 1.3vw;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 3vw;
+    padding: 0 0.1vw;
+    margin: 0.8vw 0 0 0.8vw;
+    background-color: rgba(0, 0, 0, .4);
+    border: solid 1px #fff;
+    border-radius: 0vw;
+    text-align: center;
+    cursor: pointer;
+}
+.androidTV .MenuShoppingListButton a:visited,
+.androidTV .MenuShoppingListButton a:link,
+.androidTV .MenuShoppingListButton a:active {
+        color: #ffffff;
+}
+
+/* MENU SROLL SECTION */
+/* WEB*/
+
+.web .MenuContainer {
+    top: calc(275/(var(--baseHeight))*100vh);
+    left: calc(63/(var(--baseWidth))*100vw);
+    width: calc(1795/(var(--baseWidth))*100vw);
+    height: calc(255/(var(--baseHeight))*100vh);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background) 0% 0% no-repeat padding-box;
+    pointer-events: none;
+}
+.web .MenuTitle{
+    position: absolute;
+    margin-top: -9vh;
+    font-size: 3vw;
+}
+.web .MenuContainerScroll {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    max-width: 96%;
+    height: calc(655/(var(--baseHeight))*100vh);
+    margin-left: calc(35/(var(--baseWidth))*100vw);
+    float: left;
+}
+
+/* MENU SROLL SECTION */
+/* ANDROID TV*/
+
+.androidTV .MenuContainer {
+    top: calc(275/(var(--baseHeight))*100vh);
+    left: calc(63/(var(--baseWidth))*100vw);
+    width: calc(1795/(var(--baseWidth))*100vw);
+    height: calc(255/(var(--baseHeight))*100vh);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background) 0% 0% no-repeat padding-box;
+    pointer-events: none;
+    z-index: 100;
+}
+.androidTV .MenuTitle{
+    position: absolute;
+    margin-top: -9vh;
+    font-size: 3vw;
+}
+.androidTV .MenuContainerScroll {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    max-width: 96%;
+    height: calc(655/(var(--baseHeight))*100vh);
+    margin-left: calc(35/(var(--baseWidth))*100vw);
+    float: left;
+}
+
+/* MENU SCROLL BAR DESIGN (WEB ONLY)*/
+/* WEB*/
+
+.web .MenuContainerScroll::-webkit-scrollbar {
+    width: 6px;
+    height: 1vw;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 12px none #ffffff;
+    border-radius: 65px;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-thumb:hover {
+        background: #ffffff;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-thumb:active {
+    background: #808080;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 65px;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-track:hover {
+        background: #666666;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+.web .MenuContainerScroll::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+/* MENU SROLL SECTIONS */
+/* WEB*/
+
+.web #CelebrityMenuContainer {
+    /* background-image: var(--scrollContainerBackgroundCelebrity-url);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain; */
+}
+.web #CelebrityCustomMenuContainer {
+    /* background-image: var(--scrollContainerBackgroundCustomCelebrity-url);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain; */
+}
+.web #CelebrityVideoOverview{
+    /* from the button click in the main menu*/
+}
+    .web #CelebrityVideoOverviewContainer{
+        /* background-image: var(--scrollContainerBackgroundCelebrityVideoOverview-url);
+        background-repeat: no-repeat;
+        pointer-events: none;
+        background-size: contain; */
+    }
+        .web #CelebrityVideoOverviewContainer .MenuContainerScroll{
+        }
+        .web #CelebrityVideoOverviewContainer .CelebrityVideoName{
+        }
+
+/* MENU SROLL SECTIONS */
+/* ANDROID TV*/
+
+.androidTV #CelebrityMenuContainer {
+    /* background-image: var(--scrollContainerBackgroundCelebrity-url);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain; */
+}
+.androidTV #CelebrityCustomMenuContainer {
+    /* background-image: var(--scrollContainerBackgroundCustomCelebrity-url);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain; */
+}
+
+/* CELEBRITY VIDEO */
+/* ANDROID TV*/
+
+.androidTV #CelebrityVideoOverview{
+    /* from the button click in the main menu */
+}
+    .androidTV #CelebrityVideoOverview .MenuContainer{
+        /* empty */
+    }
+    .androidTV #CelebrityVideoOverview .MenuContainerScroll{
+        /* empty */
+    }
+    .androidTV #CelebrityVideoOverview .MenuContainerScroll .CelebrityVideoItemContainer{
+        margin-top: calc(37/(var(--baseHeight))*100vh);
+        width: calc(600/(var(--baseWidth))*100vw);
+        height: calc(191/(var(--baseHeight))*100vh);
+        border: 2px solid var(--menu-item-background);
+        border-radius: calc(15/(var(--baseWidth))*100vw);
+        background-color: var(--menu-item-background);
+        overflow: hidden;
+        opacity: 1;
+        float:left;
+    }
+    .androidTV #CelebrityVideoOverview .MenuContainerScroll .CelebrityVideoItemContainer:hover {
+        border: 2px solid var(--base-yellow);
+        cursor: pointer;
+    }
+    .androidTV #CelebrityVideoOverview .MenuContainerScroll .CelebrityVideoItemContainer:hover .CelebrityVideoThumbPlaybutton{
+        background-image: url(img/icon_play_button_yellow.svg);
+    }
+    .androidTV #CelebrityVideoOverview .CelebrityVideoThumbImage{
+        width: calc(300/(var(--baseWidth))*100vw);
+        margin-left: calc(5/(var(--baseWidth))*100vw);
+        margin-top: calc(5/(var(--baseHeight))*100vh);
+        border-radius: calc(15/(var(--baseWidth))*100vw);
+    }
+    .androidTV #CelebrityVideoOverview .CelebrityVideoThumbPlaybutton{
+        margin-top: -6.5vw;
+        height: 3.5vw;
+        left: 4.5vw;
+        position: relative;
+        background-image: url(img/icon_play_button.svg);
+        background-size: 4.5vw;
+        background-repeat: no-repeat;
+        background-position: 1.5vw;
+        background-size: contain;
+        pointer-events: none;
+    }    
+    .androidTV #CelebrityVideoOverview .CelebrityVideoName{
+        position: absolute;
+        margin-left: calc(330/(var(--baseWidth))*100vw);
+        top: calc(55/(var(--baseHeight))*100vh);
+        font-size: calc(21/(var(--baseHeight))*100vh);
+        font-weight: bold;
+        font-family: 'SFPro';
+    }
+    .androidTV #CelebrityVideoOverview .CelebrityVideoDescription{
+        position: absolute;
+        margin-left: calc(330/(var(--baseWidth))*100vw);
+        top: calc(85/(var(--baseHeight))*100vh);
+        font-size: calc(16/(var(--baseHeight))*100vh);
+        font-weight: bold;
+        width: calc(250/(var(--baseWidth))*100vw);
+        height: calc(100/(var(--baseHeight))*100vh);
+        white-space: normal;
+        overflow: hidden;
+    }
+
+
+    
+
+        
+
+/* CELL ITEMS, APPLIES TO ALL CELLS IN THE SCROLL SECTION*/
+/* WEB*/
+
+.web .MenuCellBackground {
+    margin-top: calc(37/(var(--baseHeight))*100vh);
+    width: calc(400/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    border: 2px solid var(--menu-item-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    position: absolute;
+    background-color: var(--menu-item-background);
+    overflow: hidden;
+    opacity: 1;
+}
+.web .MenuCellBackground:hover{
+    opacity: 1;
+    border: 2px solid var(--base-yellow);
+    height: calc(391/(var(--baseHeight))*100vh);
+}
+    .web .MenuCellBackground img {
+        width: calc(142.34/(var(--baseWidth))*100vw);
+        height: calc(142.34/(var(--baseHeight))*100vh);
+        margin-top: calc(24.39/(var(--baseHeight))*100vh);
+        margin-left: calc(25.51/(var(--baseWidth))*100vw);
+        border-radius: calc(8/(var(--baseWidth))*100vw);
+        position: relative;
+        z-index: 100000;
+    }
+    .web .MenuCellBackground .MenuCellName {  
+        width: calc(193/(var(--baseWidth))*100vw);
+        height: calc(42/(var(--baseHeight))*100vh);
+        margin-top: calc((123.65 + 21)/(var(--baseHeight))*-100vh); /* margin from the bottom + line height */
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        font-family: 'SFPro';
+        font-size: calc(18/(var(--baseWidth))*100vw);
+        line-height: calc(21/(var(--baseHeight))*100vh); /* height of the cell divided in two */
+        white-space: normal;
+    }
+    .web .MenuCellBackground .MenuCellName .MenuCellBrandName{
+    }
+    .web .MenuCellBackground .addToFavoriteButton{
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        margin-top: calc((24 + (37/2))/(var(--baseHeight))*-100vh); /* margin from the bottom + height button */
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        background-color: #2D2D2D;
+        border-radius: 0px calc(30/(var(--baseWidth))*100vw) calc(30/(var(--baseWidth))*100vw) 0px;
+    }
+    .web .MenuCellBackground .addToFavoriteButton::before{ /* create the ★ infront of the text in the favorite button */
+        content: "★";
+        color:var(--base-yellow);
+        font-size: calc(30/(var(--baseWidth))*100vw);
+        margin-left: calc(10/(var(--baseWidth))*100vw);
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        position: absolute;
+    }
+    .web .MenuCellBackground .addToFavoriteButton::after{ /* create the text inside the favorite button */
+        content: "Add to Favorite";
+        color:var(--base-yellow);
+        font-size: calc(15/(var(--baseWidth))*100vw);
+        text-align: center;
+        margin-top: calc(10/(var(--baseHeight))*100vh);
+        margin-left: calc(10/(var(--baseWidth))*100vw);
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        position: absolute;
+    } 
+    .web .MenuCellBackground .addToFavoriteButtonRemove{
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        margin-top: calc((24 + (37/2))/(var(--baseHeight))*-100vh); /* margin from the bottom + height button */
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        background-color: #2D2D2D;
+        border-radius: 0px calc(30/(var(--baseWidth))*100vw) calc(30/(var(--baseWidth))*100vw) 0px;
+    }
+    .web .MenuCellBackground .ProductPrice{
+        left: calc(188/(var(--baseWidth))*100vw);
+        top: calc(87.92/(var(--baseHeight))*100vh);
+        font-size: calc(16/(var(--baseWidth))*100vw);
+        font-family: 'SFPro';
+        color: #96909F;
+        position: absolute;
+    }
+    .web .MenuCellBackground .ProductPrice::before{ /* set the price currency */
+        content: "NOK ";
+    }
+
+
+/* CELL ITEMS, APPLIES TO ALL CELLS IN THE SCROLL SECTION*/
+/* ANDROID TV*/
+
+.androidTV .MenuCellBackground {
+    margin-top: calc(37/(var(--baseHeight))*100vh);
+    width: calc(400/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    border: 2px solid var(--menu-item-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    position: absolute;
+    background-color: var(--menu-item-background);
+    overflow: hidden;
+    opacity: 1;
+}
+.androidTV .MenuCellBackground:hover{
+    opacity: 1;
+    border: 2px solid var(--base-yellow);
+    height: calc(391/(var(--baseHeight))*100vh);
+}
+    .androidTV .MenuCellBackground img {
+        width: calc(142.34/(var(--baseWidth))*100vw);
+        height: calc(142.34/(var(--baseHeight))*100vh);
+        margin-top: calc(24.39/(var(--baseHeight))*100vh);
+        margin-left: calc(25.51/(var(--baseWidth))*100vw);
+        border-radius: calc(8/(var(--baseWidth))*100vw);
+        position: relative;
+        z-index: 100000;
+    }
+    .androidTV .MenuCellBackground .MenuCellName {  
+        width: calc(193/(var(--baseWidth))*100vw);
+        height: calc(42/(var(--baseHeight))*100vh);
+        margin-top: calc((123.65 + 21)/(var(--baseHeight))*-100vh); /* margin from the bottom + line height */
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        font-family: 'SFPro';
+        font-size: calc(18/(var(--baseWidth))*100vw);
+        line-height: calc(21/(var(--baseHeight))*100vh); /* height of the cell divided in two */
+        white-space: normal;
+    }
+    .androidTV .MenuCellBackground .MenuCellName .MenuCellBrandName{
+    }
+    .androidTV .MenuCellBackground .addToFavoriteButton{
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        margin-top: calc((24 + (37/2))/(var(--baseHeight))*-100vh); /* margin from the bottom + height button */
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        background-color: #2D2D2D;
+        border-radius: 0px calc(30/(var(--baseWidth))*100vw) calc(30/(var(--baseWidth))*100vw) 0px;
+    }
+    .androidTV .MenuCellBackground .addToFavoriteButton::before{ /* create the ★ infront of the text in the favorite button */
+        content: "★";
+        color:var(--base-yellow);
+        font-size: calc(30/(var(--baseWidth))*100vw);
+        margin-left: calc(10/(var(--baseWidth))*100vw);
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        position: absolute;
+    }
+    .androidTV .MenuCellBackground .addToFavoriteButton::after{ /* create the text inside the favorite button */
+        content: "Add to Favorite";
+        color:var(--base-yellow);
+        font-size: calc(15/(var(--baseWidth))*100vw);
+        text-align: center;
+        margin-top: calc(10/(var(--baseHeight))*100vh);
+        margin-left: calc(10/(var(--baseWidth))*100vw);
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        position: absolute;
+    } 
+    .androidTV .MenuCellBackground .addToFavoriteButtonRemove{
+        width: calc(159/(var(--baseWidth))*100vw);
+        height: calc(37/(var(--baseHeight))*100vh);
+        margin-top: calc((24 + (37/2))/(var(--baseHeight))*-100vh); /* margin from the bottom + height button */
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        background-color: #2D2D2D;
+        border-radius: 0px calc(30/(var(--baseWidth))*100vw) calc(30/(var(--baseWidth))*100vw) 0px;
+    }
+    .androidTV .MenuCellBackground .ProductPrice{
+        left: calc(188/(var(--baseWidth))*100vw);
+        top: calc(87.92/(var(--baseHeight))*100vh);
+        font-size: calc(16/(var(--baseWidth))*100vw);
+        font-family: 'SFPro';
+        color: #96909F;
+        position: absolute;
+    }
+    .androidTV .MenuCellBackground .ProductPrice::before{ /* set the price currency */
+        content: "NOK ";
+    }
+    .androidTV .MenuCellBackground .qrCode{
+        width: calc(300/(var(--baseWidth))*100vw);
+        height: calc(300/(var(--baseHeight))*100vh);
+        margin-left: calc(40/(var(--baseWidth))*100vw);
+        margin-top: 10px;
+    }
+    .androidTV .MenuCellBackground .qrCode::after{
+            content: "Scan to see details";
+            left: calc(405.54/(var(--baseWidth))*100vw);
+            margin-top: calc(10/(var(--baseHeight))*100vh);
+            font-size: calc(13/(var(--baseWidth))*100vw);
+            font-family: 'SFPro';
+            color: #96909F;
+            position: absolute;
+    }
+    .androidTV .MenuCellBackground .qrCode img{
+        all: unset;
+        width: calc(142.34/(var(--baseWidth))*100vw);
+        height: calc(142.34/(var(--baseHeight))*100vh);
+        margin-left: calc(150/(var(--baseWidth))*100vw);
+        padding: 4px;
+        background-color: white;
+        border-radius: 8px;
+        margin-top: 8px;
+    }
+
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* CELEBRITY */
+/* WEB*/
+
+.web #Celebrity .MenuContainer{
+    top: calc(275/(var(--baseHeight))*100vh);
+    left: calc(63/(var(--baseWidth))*100vw);
+    width: calc(1795/(var(--baseWidth))*100vw);
+    height: calc(275/(var(--baseHeight))*100vh);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background) 0% 0% no-repeat padding-box;
+}
+.web #Celebrity .MenuContainerScroll{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    max-width: 96%;
+    height: calc(655/(var(--baseHeight))*100vh);
+    margin-left: calc(35/(var(--baseWidth))*100vw);
+    float: left;
+}
+.web #Celebrity .MenuCellBackground {
+    margin-top: calc(37/(var(--baseHeight))*100vh);
+    width: calc(313/(var(--baseWidth))*100vw);
+    height: calc(210/(var(--baseHeight))*100vh);
+    border: 2px solid var(--menu-item-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    position: absolute;
+    background-color: var(--menu-item-background);
+    overflow: hidden;
+    opacity: 1;
+}
+.web #Celebrity .MenuCellBackground:hover {
+    opacity: 1;
+    border: 2px solid var(--base-yellow);
+    height: calc(591/(var(--baseHeight))*100vh);
+    overflow:initial;
+}
+.web .MenuCellContainerCelebrities {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(313/(var(--baseWidth))*100vw);
+    height: calc(491/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+}
+    .web .MenuCellContainerCelebrities .MenuCellBackground img {
+        width: calc(113/(var(--baseWidth))*100vw);
+        height: calc(113/(var(--baseHeight))*100vh);
+        border-radius: 50%;
+        border: solid 5px #2D2D2D;
+        position: relative;
+        z-index: 100000;
+        left: 4vw;
+        margin-top: 0.5vw;
+    }
+    .web .MenuCellContainerCelebrities .MenuCellName {
+        width: calc(350/(var(--baseWidth))*100vw);
+        height: calc(42/(var(--baseHeight))*100vh);
+        margin-top: calc((123.65 + 21)/(var(--baseHeight))*-100vh);
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        font-family: 'SFPro';
+        font-size: calc(25/(var(--baseWidth))*100vw);
+        line-height: calc(21/(var(--baseHeight))*100vh);
+        white-space: normal;
+        margin-top: 0vw;
+        margin-left: -1vw;
+        text-align: center;
+    }
+    .web .MenuCellContainerCelebrities .MenuCelCelebrityDescription {
+        top: 12vw;
+        position: absolute;
+        left: 1vw;
+        width: 14vw;
+        white-space: initial;
+        font-size: 1vw;
+        /* CAN WE DO THIS ON TV? */
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    .web .MenuCellContainerCelebrities .MenuCelCelebrityBirthDate {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .web .MenuCellContainerCelebrities .MenuCelCelebrityBirthplace {
+        text-align: center;
+    }
+.web #Celebrity #CelebrityMenuContainer{ 
+    /* background-image: var(--scrollContainerBackgroundCelebrity-url);*/
+}
+.web #Celebrity #CelebrityCustomMenuContainer{ 
+} 
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* CELEBRITY */
+/* ANDROID TV*/
+
+.androidTV #Celebrity .MenuContainer{
+    top: calc(275/(var(--baseHeight))*100vh);
+    left: calc(63/(var(--baseWidth))*100vw);
+    width: calc(1795/(var(--baseWidth))*100vw);
+    height: calc(275/(var(--baseHeight))*100vh);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background) 0% 0% no-repeat padding-box;
+    z-index: 100;
+}
+.androidTV #Celebrity .MenuContainerScroll{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    max-width: 96%;
+    height: calc(655/(var(--baseHeight))*100vh);
+    margin-left: calc(35/(var(--baseWidth))*100vw);
+    float: left;
+}
+.androidTV #Celebrity .MenuCellBackground {
+    margin-top: calc(37/(var(--baseHeight))*100vh);
+    width: calc(313/(var(--baseWidth))*100vw);
+    height: calc(210/(var(--baseHeight))*100vh);
+    border: 2px solid var(--menu-item-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    position: absolute;
+    background-color: var(--menu-item-background);
+    overflow: hidden;
+    opacity: 1;
+}
+.androidTV #Celebrity .MenuCellBackground:hover {
+    opacity: 1;
+    border: 2px solid var(--base-yellow);
+    height: calc(591/(var(--baseHeight))*100vh);
+    overflow:initial;
+}
+.androidTV .MenuCellContainerCelebrities {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(313/(var(--baseWidth))*100vw);
+    height: calc(491/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+}
+    .androidTV .MenuCellContainerCelebrities .MenuCellBackground img {
+        width: calc(113/(var(--baseWidth))*100vw);
+        height: calc(113/(var(--baseHeight))*100vh);
+        border-radius: 50%;
+        border: solid 5px #2D2D2D;
+        position: relative;
+        z-index: 100000;
+        left: 4vw;
+        margin-top: 0.5vw;
+    }
+    .androidTV .MenuCellContainerCelebrities .MenuCellName {
+        width: calc(350/(var(--baseWidth))*100vw);
+        height: calc(42/(var(--baseHeight))*100vh);
+        margin-top: calc((123.65 + 21)/(var(--baseHeight))*-100vh);
+        margin-left: calc(188/(var(--baseWidth))*100vw);
+        font-family: 'SFPro';
+        font-size: calc(25/(var(--baseWidth))*100vw);
+        line-height: calc(21/(var(--baseHeight))*100vh);
+        white-space: normal;
+        margin-top: 0vw;
+        margin-left: -1vw;
+        text-align: center;
+    }
+    .androidTV .MenuCellContainerCelebrities .MenuCelCelebrityDescription {
+        top: 12vw;
+        position: absolute;
+        left: 1vw;
+        width: 14vw;
+        white-space: initial;
+        font-size: 1vw;
+        /* CAN WE DO THIS ON TV? */
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    .androidTV .MenuCellContainerCelebrities .MenuCelCelebrityBirthDate {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .androidTV .MenuCellContainerCelebrities .MenuCelCelebrityBirthplace {
+        text-align: center;
+    }
+.androidTV #Celebrity #CelebrityMenuContainer{ 
+    /* background-image: var(--scrollContainerBackgroundCelebrity-url);*/
+}
+.androidTV #Celebrity #CelebrityCustomMenuContainer{ 
+} 
+
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* PRODUCT */
+/* WEB*/
+
+.web .MenuCellContainerProducts {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(370/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+    cursor: pointer;
+}
+    .web .MenuCellContainerProducts .MenuCellBackground {
+    }
+    .web .MenuCellContainerProducts .MenuCellBackground img {
+    }
+    .web .MenuCellContainerProducts .MenuCellName {
+    }
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* PRODUCT */
+/* ANDROID TV*/
+
+.androidTV .MenuCellContainerProducts {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(370/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+    cursor: pointer;
+    z-index: 100;
+}
+    .androidTV .MenuCellContainerProducts .MenuCellBackground {
+    }
+    .androidTV .MenuCellContainerProducts .MenuCellBackground img {
+    }
+    .androidTV .MenuCellContainerProducts .MenuCellName {
+    }
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* CUSTOM PRODUCT */
+/* WEB*/
+
+.web .MenuCellContainerCustomProducts {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(370/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+    cursor: pointer;
+}
+    .web .MenuCellContainerCustomProducts .MenuCellBackground {
+    }
+    .web .MenuCellContainerCustomProducts .MenuCellBackground img {
+    }
+    .web .MenuCellContainerCustomProducts .MenuCellName {
+    }
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* CUSTOM PRODUCT */
+/* ANDROID TV*/
+
+.androidTV .MenuCellContainerCustomProducts {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(370/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+    cursor: pointer;
+    z-index: 100;
+}
+    .androidTV .MenuCellContainerCustomProducts .MenuCellBackground {
+    }
+    .androidTV .MenuCellContainerCustomProducts .MenuCellBackground img {
+    }
+    .androidTV .MenuCellContainerCustomProducts .MenuCellName {
+    }
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* MUSIC */
+/* WEB*/
+
+.web .MenuCellContainerMusic {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(543/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+}
+    .web .MenuCellContainerMusic .MenuCellBackground {
+    }
+    .web .MenuCellContainerMusic .MenuCellBackground img {
+    }
+    .web .MenuCellContainerMusic .MenuCellName {
+    }
+    .web .MenuCellContainerMusic .MenuCellSong {
+    }
+.web .MenuCellMusicUrlContainer {
+    margin-top: 12.2vw;
+    margin-bottom: 1vw;
+    height: initial;
+    width: 9vw;
+    font-size: 1vw;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.2vw;
+    padding-bottom: 0.5vw;
+    border: solid 1px transparent;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.web.MenuCellMusicUrlContainer:hover {
+        border: solid 1px #ffffff;
+}
+    .web .MenuCellMusicUrlContainer .MenuCellMusicUrlName{
+    }
+    .web .MenuCellMusicUrlContainer .MenuCellMusicUrl {
+    }
+    .web .MenuCellMusicUrlContainer a:visited,
+    .web .MenuCellMusicUrlContainer a:link,
+    .web .MenuCellMusicUrlContainer a:active {
+        color: #ffffff;
+    }
+
+/* CELL ITEMS, OVERRULE ABOVE STYLING*/
+/* MUSIC */
+/* ANDROID TV*/
+
+.androidTV .MenuCellContainerMusic {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(543/(var(--baseWidth))*100vw);
+    height: calc(191/(var(--baseHeight))*100vh);
+    margin-right: calc(30/(var(--baseWidth))*100vw);
+    z-index: 100;
+}
+    .androidTV .MenuCellContainerMusic .MenuCellBackground {
+    }
+    .androidTV .MenuCellContainerMusic .MenuCellBackground img {
+    }
+    .androidTV .MenuCellContainerMusic .MenuCellName {
+    }
+    .androidTV .MenuCellContainerMusic .MenuCellSong {
+    }
+.androidTV .MenuCellMusicUrlContainer {
+    margin-top: 12.2vw;
+    margin-bottom: 1vw;
+    height: initial;
+    width: 9vw;
+    font-size: 1vw;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.2vw;
+    padding-bottom: 0.5vw;
+    border: solid 1px transparent;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.androidTV.MenuCellMusicUrlContainer:hover {
+        border: solid 1px #ffffff;
+}
+    .androidTV .MenuCellMusicUrlContainer .MenuCellMusicUrlName{
+    }
+    .androidTV .MenuCellMusicUrlContainer .MenuCellMusicUrl {
+    }
+    .androidTV .MenuCellMusicUrlContainer a:visited,
+    .androidTV .MenuCellMusicUrlContainer a:link,
+    .androidTV .MenuCellMusicUrlContainer a:active {
+        color: #ffffff;
+    }
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/cart.xml" value="0.1175" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/cart2.xml" value="0.1175" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/exo_controls_fastforward.xml" value="0.1185" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/exo_controls_next.xml" value="0.1185" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/exo_controls_pause.xml" value="0.1185" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/exo_controls_previous.xml" value="0.1185" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/drawable-anydpi-v21/exo_edit_mode_logo.xml" value="0.1185" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/layout/exo_playback_control_view.xml" value="0.1" />
+        <entry key="../../../.gradle/caches/transforms-3/41ba129153fff96c23e6409578ba94f1/transformed/jetified-exoplayer-ui-r2.4.0/res/layout/exo_simple_player_view.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_listofprograms.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1787872314453125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11276041666666667" />
+        <entry key="app/src/main/res/layout/activity_player.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_listiem.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_listitem.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1787872314453125" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

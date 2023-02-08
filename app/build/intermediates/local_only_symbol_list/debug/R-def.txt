@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+anim scale_in_tv
+anim scale_out_tv
+drawable border
+drawable cart
+drawable image
+drawable image2
+drawable image3
+drawable logo
+drawable pause
+drawable play
+id button2
+id card
+id cart
+id contentId
+id idExoPlayerVIew
+id imageView
+id image_view
+id itemlayout
+id main
+id recyclerView
+id showtag
+id textView
+id webview
+layout activity_listofprograms
+layout activity_login
+layout activity_main
+layout activity_player
+layout layout_listitem
+mipmap ic_launcher
+string app_name
+style Theme.ShowTagTV

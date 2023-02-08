@@ -1,0 +1,667 @@
+﻿/* WEB */
+/* THE FOLLOWING IS USED FOR WEB ONLY */
+
+.web .tag{
+    cursor: pointer;
+    width: 2vw;
+    height: 2vw;
+    border: 1px solid #ebebeb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 10;
+    background-image: url(img/tag_product.png);
+}
+.web .tagText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 2px 2px 8px #020202;
+}
+
+/* CELEBRITY TAG */
+.web .CelebrityTag {
+    background-image: url("img/tag_celebrity.png");
+}
+
+.web .CelebrityTagTextLeft {
+    border-radius: 0px 5px 5px 5px;
+    margin-top: 15px;
+    margin-left: 2.5vw;
+    border-radius: 0px 5px 5px 5px;
+margin-top: 15px;
+margin-left: 2.5vw;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size: calc(24/(var(--baseWidth))*100vw);
+width: calc(543/(var(--baseWidth))*100vw);
+height: calc(171/(var(--baseHeight))*100vh);
+background: var(--menu-scroll-background);
+border-radius: calc(15/(var(--baseWidth))*100vw);
+margin-top: calc(-90/(var(--baseHeight))*100vh);
+margin-left: calc(75/(var(--baseWidth))*100vw);
+border: 1px solid var(--base-yellow);
+}
+.web .CelebrityTagTextRight {
+    border-radius: 5px 0px 5px 5px;
+    margin-top: 15px;
+    margin-left: 2.5vw;
+    border-radius: 0px 5px 5px 5px;
+margin-top: 15px;
+margin-left: 2.5vw;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size: calc(24/(var(--baseWidth))*100vw);
+width: calc(543/(var(--baseWidth))*100vw);
+height: calc(171/(var(--baseHeight))*100vh);
+background: var(--menu-scroll-background);
+border-radius: calc(15/(var(--baseWidth))*100vw);
+margin-top: calc(-90/(var(--baseHeight))*100vh);
+margin-left: calc(75/(var(--baseWidth))*100vw);
+border: 1px solid var(--base-yellow);
+}
+
+
+.web .CelebrityCard .CelebrityInstagramImage {
+    background-image: url(img/icon_instagram.svg);
+    width: 2vw;
+    height: 2vw;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: contain;
+    position: absolute;
+    margin-left: 1vw;
+}
+.web .CelebrityCard .CelebrityInstagramText {
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-left: 3.5vw;
+}
+
+
+
+
+/* PRODUCT TAG - RIGHT*/
+.web .ProductTagRight {
+    background-image: url("img/tag_product.png");
+}
+.web .ProductTagRightImage{ /* only used with option "show product image "*/
+    width: 2vw;
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: -2.5vw;
+}
+.web .ProductTextRight {
+    border-radius: 5px 0px 5px 5px;
+    text-align: right;
+    position: absolute;
+    min-width: 10vw;
+    max-width: 10vw;
+    margin-top: -0.5vw;
+    right: 2.5vw;
+}
+.web .ProductBrandRight {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1vw;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px 0px 5px;
+    margin-top: -3vw;
+    box-shadow: 2px 2px 8px #020202;
+    right: 2.5vw;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* PRODUCT TAG - LEFT */
+.web .ProductTagLeft {
+    background-image: url("img/tag_product.png");    
+}
+.web .ProductTagLeftImage{ /* only used with option "show product image "*/
+    width: 2vw;
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: 2.5vw;
+}
+.web .ProductTextLeft {
+    border-radius: 0px 5px 5px 5px;
+    margin-top: -15px;
+    margin-left: 2.5vw;
+    width: 11vw;
+}
+.web .ProductBrandLeft {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1vw;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px 5px 0px;
+    margin-top: -2.7vw;
+    box-shadow: 2px 2px 8px #020202;
+    margin-left: 2.5vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*  ONLY USED WITH OPTION: DEACTIVATE PRODUCT
+    DETAILS IN THE SETTINGS MENU AND FOR WEB
+    THIS ADDS THE BUTTON TO THE TAG TO DIRECTLY 
+    LINK TO A PRODUCT
+*/
+.web .ProductTagButton {
+    background: rgba(0, 0, 0, 0.4);
+    border: solid 1px #fff;
+    padding: 0.5vw;
+    cursor: pointer;
+}
+.web .ProductTagButton a{
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+/* ANDROID TV*/
+/* ONLY USED FOR ANDROID TV ONLY */
+.androidTV .tag{
+    cursor: pointer;
+    width: calc(53/(var(--baseWidth))*100vw);
+    height: calc(53/(var(--baseHeight))*100vh);
+    border-radius: 50%;
+    padding: 15px;
+    border: 5px solid #FFE002;
+    background-size: calc(25/(var(--baseWidth))*100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    /* z-index: 10; */
+    background-image: url(img/tag_product_yellow.svg);
+}
+.androidTV .tagText{
+    /* font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 2px 2px 8px #020202; */
+}
+
+/* PRODUCT SECTION */
+.androidTV .ProductTag:hover .ProductTagContainer{
+    display: block;
+}
+.androidTV .ProductTag:hover{
+    background-image: url(img/tag_product_white.svg);
+}
+.androidTV .ProductTagContainer{
+    width: calc(543/(var(--baseWidth))*100vw);
+    height: calc(171/(var(--baseHeight))*100vh);
+    background: var(--menu-scroll-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    margin-top: calc(-90/(var(--baseHeight))*100vh);
+    margin-left: calc(75/(var(--baseWidth))*100vw);
+    border: 1px solid var(--base-yellow);
+    position: relative;
+    z-index: 100;
+    display: none;
+}
+.androidTV .ProductTagImage{
+    width: calc(120/(var(--baseWidth))*100vw);
+    height: calc(120/(var(--baseHeight))*100vh);
+    border-radius: calc(8/(var(--baseWidth))*100vw);
+    margin-top: calc(25/(var(--baseHeight))*100vh);
+    margin-left: calc(15/(var(--baseHeight))*100vw);
+}
+
+/* overrule style tag on the right side */
+.androidTV .ProductTagRight{
+
+}
+.androidTV .ProductTagRight .ProductTagContainer{
+    float: right;
+    right: 4vw;
+}
+.androidTV .ProductTagRightImage{
+
+}
+.androidTV .ProductTextRight{
+    top: calc(55/(var(--baseHeight))*100vh);
+    left: calc(158/(var(--baseWidth))*100vw);
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(18/(var(--baseWidth))*100vw);
+    color: #ffffff;
+    background-color: initial;
+    border-radius: initial;
+    box-shadow: initial;
+    right: initial;
+    text-align: initial;
+    padding: initial;
+    max-width: initial;
+    min-width: 12vw;
+    margin-top: initial;
+    line-height: initial;
+}
+.androidTV .ProductBrandRight{
+    top: calc(25/(var(--baseHeight))*100vh);
+    left: calc(158/(var(--baseWidth))*100vw);
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(18/(var(--baseWidth))*100vw);
+    color: #ffffff;
+    background-color: initial;
+    border-radius: initial;
+    box-shadow: initial;
+    right: initial;
+    text-align: initial;
+    padding: initial;
+    max-width: 12vw;
+    min-width: initial;
+    margin-top: initial;
+    line-height: initial;
+}
+
+/* overrule style tag on the left side */
+.androidTV .ProductTagLeft{
+
+}
+.androidTV .ProductTagLeftImage{
+
+}
+.androidTV .ProductTextLeft{
+    top: calc(55/(var(--baseHeight))*100vh);
+    left: calc(158/(var(--baseWidth))*100vw);
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(18/(var(--baseWidth))*100vw);
+    color: #ffffff;
+    background-color: initial;
+    border-radius: initial;
+    box-shadow: initial;
+    right: initial;
+    text-align: initial;
+    padding: initial;
+    max-width: initial;
+    min-width: 12vw;
+    margin-top: initial;
+    line-height: initial;
+}
+.androidTV .ProductBrandLeft{
+    top: calc(25/(var(--baseHeight))*100vh);
+    left: calc(158/(var(--baseWidth))*100vw);
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(18/(var(--baseWidth))*100vw);
+    color: #ffffff;
+    background-color: initial;
+    border-radius: initial;
+    box-shadow: initial;
+    right: initial;
+    text-align: initial;
+    padding: initial;
+    max-width: 12vw;
+    min-width: initial;
+    margin-top: initial;
+    line-height: initial;
+}
+
+/* QR Code Design */
+/* ANDROID TV*/
+.androidTV .qrCode{
+    margin-top: -12vh;
+    margin-left: calc(397/(var(--baseWidth))*100vw);
+}
+.androidTV .qrCode img{
+    width: calc(120/(var(--baseWidth))*100vw);
+    height: calc(120/(var(--baseHeight))*100vh);
+    padding: 0.5vw;
+    background-color: #ffffff;
+    border-radius: calc(8/(var(--baseWidth))*100vw);
+}
+
+/* FAVORITE BUTTON */
+/* ANDROID TV*/
+.androidTV .ProductTagContainer .addToFavoriteButton{
+    width: calc(159/(var(--baseWidth))*100vw);
+    height: calc(37/(var(--baseHeight))*100vh);
+    margin-top: calc((24 + (37/2))/(var(--baseHeight))*-100vh); /* margin from the bottom + height button */
+    margin-left: calc(148/(var(--baseWidth))*100vw);
+    background-color: #2D2D2D;
+    border-radius: 0px calc(30/(var(--baseWidth))*100vw) calc(30/(var(--baseWidth))*100vw) 0px;
+}
+.androidTV .ProductTagContainer .addToFavoriteButton::before{ /* create the ★ infront of the text in the favorite button */
+    content: "★";
+    color:var(--base-yellow);
+    font-size: calc(30/(var(--baseWidth))*100vw);
+    margin-left: calc(10/(var(--baseWidth))*100vw);
+    width: calc(159/(var(--baseWidth))*100vw);
+    height: calc(37/(var(--baseHeight))*100vh);
+    position: absolute;
+}
+.androidTV .ProductTagContainer .addToFavoriteButton::after{ /* create the text inside the favorite button */
+    content: "Add to Favorite";
+    color:var(--base-yellow);
+    font-size: calc(15/(var(--baseWidth))*100vw);
+    text-align: center;
+    margin-top: calc(10/(var(--baseHeight))*100vh);
+    margin-left: calc(10/(var(--baseWidth))*100vw);
+    width: calc(159/(var(--baseWidth))*100vw);
+    height: calc(37/(var(--baseHeight))*100vh);
+    position: absolute;
+} 
+.androidTV .ProductTagContainer .addToFavoriteButtonRemove{
+    width: calc(159/(var(--baseWidth))*100vw);
+    height: calc(37/(var(--baseHeight))*100vh);
+    margin-top: calc((24 + (37/2))/(var(--baseHeight))*-100vh); /* margin from the bottom + height button */
+    margin-left: calc(148/(var(--baseWidth))*100vw);
+    background-color: #2D2D2D;
+    border-radius: 0px calc(30/(var(--baseWidth))*100vw) calc(30/(var(--baseWidth))*100vw) 0px;
+}
+.androidTV .ProductTagContainer .addToFavoriteButtonRemove::before{ /* create the ★ infront of the text in the favorite button */
+    content: "★";
+    color:var(--base-yellow);
+    font-size: calc(30/(var(--baseWidth))*100vw);
+    margin-left: calc(10/(var(--baseWidth))*100vw);
+    width: calc(159/(var(--baseWidth))*100vw);
+    height: calc(37/(var(--baseHeight))*100vh);
+    position: absolute;
+}
+.androidTV .ProductTagContainer .addToFavoriteButtonRemove::after{ /* create the text inside the favorite button */
+    content: "Add to Favorite";
+    color:var(--base-yellow);
+    font-size: calc(15/(var(--baseWidth))*100vw);
+    text-align: center;
+    margin-top: calc(10/(var(--baseHeight))*100vh);
+    margin-left: calc(10/(var(--baseWidth))*100vw);
+    width: calc(159/(var(--baseWidth))*100vw);
+    height: calc(37/(var(--baseHeight))*100vh);
+    position: absolute;
+} 
+
+
+/* PRODUCT PRICE */
+/* ANDROID TV*/
+.androidTV .ProductTagContainer .ProductPrice{
+    left: calc(158/(var(--baseWidth))*100vw);
+    top: calc(82/(var(--baseHeight))*100vh);
+    font-size: calc(16/(var(--baseWidth))*100vw);
+    font-family: 'SFPro';
+    color: #96909F;
+    position: absolute;
+}
+.androidTV .ProductTagContainer .ProductPrice::before{ /* set the price currency */
+    content: "NOK ";
+}
+
+/* CELEBRITY */
+.androidTV .CelebrityTag{
+    background-image: url(img/tag_celebrity_yellowy.svg);
+}
+.androidTV .CelebrityTag:hover{
+    background-image: url(img/tag_celebrity_white.svg);
+}
+.androidTV .CelebrityTag:hover .CelebrityCardLeft{
+    display: block;
+}
+.androidTV .CelebrityTag:hover .CelebrityCardRight{
+    display: block;
+}
+
+/*default: used when details turend off or hover turned on*/
+.androidTV .CelebrityTag:hover .CelebrityTagTextRight{
+    display: block;
+}
+.androidTV .CelebrityTag:hover .CelebrityTagTextLeft{
+    display: block;
+}
+.androidTV .CelebrityTagTextRight { 
+    color: #ffffff;
+    font-size: calc(24/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    margin-top: calc(-25/(var(--baseHeight))*100vh);
+    right: calc(55/(var(--baseWidth))*100vw);
+    border: 1px solid var(--base-yellow);
+    padding: 5px;
+    white-space: nowrap;
+    display: none;
+}
+.androidTV .CelebrityTagTextLeft { 
+    color: #ffffff;
+    font-size: calc(24/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    margin-top: calc(-25/(var(--baseHeight))*100vh);
+    left: calc(55/(var(--baseWidth))*100vw);
+    border: 1px solid var(--base-yellow);
+    padding: 5px;
+    white-space: nowrap;
+    display: none;
+}
+
+/* used when program details are deactivated*/
+.androidTV .CelebrityCardLeft{
+    left: 3vw;
+    width: calc(440/(var(--baseWidth))*100vw);
+    /* height: calc(600/(var(--baseHeight))*100vh); */
+    background: var(--menu-scroll-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    margin-left: calc(75/(var(--baseWidth))*100vw);
+    border: 1px solid var(--base-yellow);
+    position: relative;
+    display: none;
+    top: -40px;
+    padding-bottom: 1vw;
+}
+.androidTV .CelebrityCardRight{
+    width: calc(440/(var(--baseWidth))*100vw);
+    /* height: calc(600/(var(--baseHeight))*100vh); */
+    background: var(--menu-scroll-background);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    margin-right: calc(75/(var(--baseWidth))*100vw);
+    border: 1px solid var(--base-yellow);
+    position: relative;
+    float: right;
+    display: none;
+    top: -40px;
+    padding-bottom: 1vw;
+}
+
+    .androidTV .CelebrityCard .CelebrityImage{
+        margin-left: 7.5vw;
+        width: calc(150/(var(--baseWidth))*100vw); 
+        height: calc(150/(var(--baseHeight))*100vh);
+        overflow: hidden;
+        border-radius: 50%;
+        border: solid 2px var(--base-yellow);      
+        margin-top: -4vw;
+    }
+    .androidTV .CelebrityCard .CelebrityName {
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'SFPro';
+        font-size: calc(30/(var(--baseWidth))*100vw);
+        margin-top: 10px;
+    }
+    .androidTV .CelebrityCard .CelebrityPersonalia {
+        /* top: 16vw; */
+        /* left: 2vw; */
+        /* padding: 0.5vw; */
+        width: 100%;
+        text-align: center;
+    }
+    .androidTV .CelebrityCard .CelebrityDescription {
+        top:0px;
+        left: 0px;
+        width: 100%;
+        padding: 25px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        white-space: initial;
+        word-break: break-word;
+        color: #ffffff;
+        font-family: 'SFPro';
+        font-size: calc(20/(var(--baseWidth))*100vw);
+    }
+    .androidTV .CelebrityCard .CelebrityOptionContainer{
+        height: 140px;
+        margin-top: 5px;
+        background-color: #161616;
+        display: none;
+    }
+
+
+    .androidTV .CelebrityCard .CelebrityButtonContainer{
+        display: flex;
+        width: 218px;
+        justify-content: center;
+    }
+        /* favorite button */
+        .androidTV .CelebrityCard .addToFavoriteButton{
+            width: calc(220/(var(--baseWidth))*100vw);
+            height: calc(50/(var(--baseHeight))*100vh);
+            margin-left: calc(110/(var(--baseWidth))*100vw);
+            background-color: var(--base-yellow);
+            border-radius: calc(30/(var(--baseWidth))*100vw);
+            margin: 3px;
+        }
+        .androidTV .CelebrityCard .addToFavoriteButton::before{ /* create the ★ infront of the text in the favorite button */
+            content: "★";
+            color: #000000;
+            font-size: calc(40/(var(--baseWidth))*100vw);
+            margin-left: calc(10/(var(--baseWidth))*100vw);
+            width: calc(159/(var(--baseWidth))*100vw);
+            height: calc(50/(var(--baseHeight))*100vh);
+        }
+        .androidTV .CelebrityCard .addToFavoriteButton::after{ /* create the text inside the favorite button */
+            content: "Add to Favorite";
+            color: #000000;
+            font-size: calc(20/(var(--baseWidth))*100vw);
+            text-align: center;
+            margin-left: calc(10/(var(--baseWidth))*100vw);
+            width: calc(159/(var(--baseWidth))*100vw);
+            height: calc(37/(var(--baseHeight))*100vh);
+        } 
+        .androidTV .CelebrityCard .addToFavoriteButtonRemove{
+            width: calc(220/(var(--baseWidth))*100vw);
+            height: calc(50/(var(--baseHeight))*100vh);
+            margin-left: calc(110/(var(--baseWidth))*100vw);
+            background-color: var(--base-yellow);
+            border-radius: calc(30/(var(--baseWidth))*100vw);
+            margin: 3px;
+        }
+        .androidTV .CelebrityCard .addToFavoriteButtonRemove::before{ /* create the ★ infront of the text in the favorite button */
+            content: "★";
+            color: #0f0f0f;
+            font-size: calc(30/(var(--baseWidth))*100vw);
+            margin-left: calc(10/(var(--baseWidth))*100vw);
+            width: calc(159/(var(--baseWidth))*100vw);
+            height: calc(37/(var(--baseHeight))*100vh);
+            position: absolute;
+        }
+        .androidTV .CelebrityCard .addToFavoriteButtonRemove::after{ /* create the text inside the favorite button */
+            content: "remove Favorite";
+            color:#0f0f0f;
+            font-size: calc(15/(var(--baseWidth))*100vw);
+            text-align: center;
+            margin-top: calc(10/(var(--baseHeight))*100vh);
+            margin-left: calc(10/(var(--baseWidth))*100vw);
+            width: calc(159/(var(--baseWidth))*100vw);
+            height: calc(37/(var(--baseHeight))*100vh);
+            position: absolute;
+        } 
+
+        /* button show more information */
+        .androidTV .CelebrityCard .buttonMore{
+            width: calc(120/(var(--baseWidth))*100vw);
+            height: calc(50/(var(--baseHeight))*100vh);
+            margin-left: calc(110/(var(--baseWidth))*100vw);
+            background-color: var(--base-yellow);
+            border-radius: calc(30/(var(--baseWidth))*100vw);
+            cursor: pointer;
+            color:#161616;
+            margin-top: 5px;
+            border: solid 1px var(--base-yellow);
+            margin: 3px;
+        }
+
+
+
+
+
+        /* Instagram QR Code */
+        .androidTV .CelebrityCard .CelebrityInstagram {
+
+
+        }
+        .androidTV .CelebrityCard .qrCode{
+            margin-top: 0px;
+            width: 100%;
+            margin-left: initial;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .androidTV .CelebrityCard .qrCode img {
+            padding: 0.5vw;
+            background-color: #ffffff;
+            border-radius: calc(8/(var(--baseWidth))*100vw);
+            width: 60%;
+            height: 60%;
+        }
+
+
+
+
+
+
+/*  ONLY USED WITH OPTION: PRODUCT TAG 
+    NOTIFICATION IN THE SETTINGS MENU
+*/
+.androidTV .ProductDetected{
+    width: calc(270/(var(--baseWidth))*100vw);
+    height: calc(64/(var(--baseHeight))*100vh);
+    top: calc(50/(var(--baseHeight))*100vh);
+    left: calc(50/(var(--baseWidth))*100vw);
+    border: solid 2px var(--base-yellow);
+    z-index: 1000;
+    cursor: pointer;
+    position: absolute;
+    background-color: var(--menu-item-background);
+    border-radius: calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw);
+    font-size: calc(24/(var(--baseWidth))*100vw);
+    color: #ffffff;
+    font-size: calc(20/(var(--baseWidth))*100vw);
+}
+.androidTV .ProductDetected span{
+    top: 0.8vw;
+    margin-left: 0.6vw;
+    position: absolute;
+}
+.androidTV.ProductDetected svg{ /* information icon default */
+    filter: invert(1);
+    margin-left: 0.9vw;
+    margin-top: 0.6vw;
+}
+

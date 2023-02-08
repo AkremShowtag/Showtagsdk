@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tvapp.showtagtv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.software.leanback"
+12-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:6:9-49
+13        android:required="false" />
+13-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:7:9-33
+14    <uses-feature
+14-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:8:5-10:36
+15        android:name="android.hardware.touchscreen"
+15-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:9:9-52
+16        android:required="false" />
+16-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:10:9-33
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:11:5-80
+18-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGED" />
+19-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:12:5-80
+19-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:14:5-67
+20-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:14:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:15:5-79
+21-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:15:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:16:5-76
+22-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:16:22-73
+23
+24    <application
+24-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:18:5-43:19
+25        android:allowBackup="true"
+25-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:19:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.7.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\c61287263f7ce0bc369b924eb1beec7d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+27        android:banner="@drawable/lb_action_bg"
+27-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:20:9-48
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:21:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:22:9-41
+31        android:supportsRtl="true"
+31-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:23:9-35
+32        android:theme="@style/Theme.ShowTagTV" >
+32-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:24:9-47
+33        <activity
+33-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:25:9-27:40
+34            android:name="com.tvapp.showtagtv.Player"
+34-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:26:13-35
+35            android:exported="false" />
+35-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:27:13-37
+36        <activity
+36-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:28:9-30:40
+37            android:name="com.tvapp.showtagtv.Listofprograms"
+37-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:29:13-43
+38            android:exported="false" />
+38-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:30:13-37
+39        <activity
+39-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:31:9-33:40
+40            android:name="com.tvapp.showtagtv.Login"
+40-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:32:13-34
+41            android:exported="false" />
+41-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:33:13-37
+42        <activity
+42-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:34:9-42:20
+43            android:name="com.tvapp.showtagtv.MainActivity"
+43-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:35:13-41
+44            android:exported="true" >
+44-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:36:13-36
+45            <intent-filter>
+45-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:37:13-41:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:38:17-69
+46-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+48-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:40:17-86
+48-->C:\Users\Mega-PC\Desktop\Upwork\ShowTag\app\src\main\AndroidManifest.xml:40:27-83
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+54            android:authorities="com.tvapp.showtagtv.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\b17b9092229c57f60fdbffb1af622591\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\b17b9092229c57f60fdbffb1af622591\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega-PC\.gradle\caches\transforms-3\b17b9092229c57f60fdbffb1af622591\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

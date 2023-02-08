@@ -1,0 +1,61 @@
+﻿<html>
+  <head>
+    <style>
+      iframe {
+        height: 550px !important;
+      }
+    </style>
+  </head>
+  <link
+    href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css"
+    rel="stylesheet"
+  />
+
+  <body style="margin: 0px">
+    <div id="videoContainer" style="width: 00px"></div>
+
+    <script>
+      var config = {
+        studio: true,
+        designer: true,
+        url: "https://tag2081.showtagenabled.com/programs/vevo2019091911212081/vevo2019091911212081.mp4",
+        videoId: "vevo2019091911212081",
+        width: "960px",
+        idUser: "testuser",
+      };
+
+      var x = document.createElement("iframe");
+      x.setAttribute("style", "position: absolute;");
+      x.setAttribute("id", "videoWrapper");
+      // x.setAttribute(
+      //   "srcdoc",
+      //   '<video autoplay style="height:550px;" style="pointer-events: none;" data-config=' +
+      //     JSON.stringify(config) +
+      //     ' id="my-player"></video><script src="JS/1.0.0.js"><\/script>'
+      // );
+      document.getElementById("videoContainer").appendChild(x);
+
+      window.onload = function () {
+        let doc = x.contentDocument;
+
+        doc.body.innerHTML =
+          doc.body.innerHTML +
+          `<style>body{
+    margin:0px;
+} </style>`;
+      };
+    </script>
+
+    <video
+      style="height: 550px; width: 960px"
+      data-config='{"studio":true,"designer":false,"url":"https://tag2081.showtagenabled.com/programs/vevo2019091911212081/vevo2019091911212081.mp4","videoId":"vevo2019091911212081","width":"960px","idUser":"testuser"}'
+      id="my-player"
+    ></video>
+    <script src="JS/test.1.0.0.js"></script>
+    <script
+      id="myScript"
+      src="JS/test.1.0.0.js"
+      data-my_var_1="config"
+    ></script>
+  </body>
+</html>

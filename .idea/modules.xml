@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShowTagTV.iml" filepath="$PROJECT_DIR$/.idea/modules/ShowTagTV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Showtagsdk/ShowTagTV.Showtagsdk.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowTagTV.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

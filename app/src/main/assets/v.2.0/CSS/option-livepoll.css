@@ -1,0 +1,191 @@
+﻿/* LIVE POLL */
+
+
+
+.Poll-title {
+    top: 16vh;
+    left: calc(63/(var(--baseWidth))*100vw);
+    font-size: calc(51/(var(--baseWidth))*100vw);
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.Poll-LivePollDescription {
+    top: 12vw;
+    left: calc(63/(var(--baseWidth))*100vw);
+    font-size: 1.5vw;
+    font-family: 'SFPro';
+    font-size: calc(26/(var(--baseWidth))*100vw);
+    color: #ffffff;
+}
+
+
+/* POLL ITEM */
+.PollItem-Container {
+    top: calc(275/(var(--baseHeight))*100vh);
+    left: calc(63/(var(--baseWidth))*100vw);
+    width: calc(1795/(var(--baseWidth))*100vw);
+    border-radius: calc(15/(var(--baseWidth))*100vw);
+    background: var(--menu-scroll-background) 0% 0% no-repeat padding-box;
+    pointer-events: none;
+    padding-top: 3vh;
+}
+
+.PollItem {
+    width: 100%;
+    height: calc(114/(var(--baseHeight))*100vh);
+    margin-right: 1vw;
+    margin-bottom: calc(25/(var(--baseHeight))*100vh);
+}
+
+.PollItem-name {
+    width: 25vw;
+    margin-top: calc(40/(var(--baseHeight))*100vh);
+    margin-left: 0vw;
+    font-family: 'SFPro';
+    font-size: calc(29/(var(--baseWidth))*100vw);
+    text-align: right;
+    color: #ffffff;
+}
+
+.PollItem-Imagebackground {
+    width: calc(113/(var(--baseWidth))*100vw);
+    margin-left: calc(490/(var(--baseWidth))*100vw);
+    position: absolute;
+    z-index: 1;
+}
+
+.PollItem-Image {
+    width: calc(113/(var(--baseWidth))*100vw);
+    border-radius: 50%;
+    border: solid 5px #2D2D2D;
+}
+
+.PollItemBar {
+    height: calc(88/(var(--baseHeight))*100vh);
+    width: calc(816/(var(--baseWidth))*100vw);
+    margin-left: calc(529/(var(--baseWidth))*100vw);
+    margin-top: calc(12.5/(var(--baseHeight))*100vh); /* margin from the bottom + height button */
+    background-color: #2D2D2D;
+    border-radius: 0px calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw) 0px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.PollItemBarResult{
+    background-color: var(--base-yellow);
+    height: calc(88/(var(--baseHeight))*100vh);
+    border-radius: 0px calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw) 0px;
+}
+
+    .PollItemBarResultnumber {
+        margin-top: calc((21)/(var(--baseHeight))*100vh);
+        width: calc(95/(var(--baseWidth))*100vw);
+        font-size: calc(39/(var(--baseWidth))*100vw);
+        text-align: center;
+        font-family: 'SFPro';
+        color: #000000;
+        float: right;
+        margin-right: 1vw;
+        font-family: 'SFPro';
+        font-weight: bold;
+    }
+
+    .PollItemBarResultVoteNumber{
+        margin-top: calc((30)/(var(--baseHeight))*100vh);
+        font-size: calc(23/(var(--baseWidth))*100vw);
+        text-align: right;
+        color: #898989;
+        font-family: 'SFPro';
+        font-weight: normal;
+        position: absolute;
+        margin-left: calc(696/(var(--baseWidth))*100vw);
+    }
+
+.PollItem-Votebutton {
+    margin-left: 73vw;
+    margin-top: calc(27/(var(--baseHeight))*100vh); 
+    padding: 1vw;
+    background-color: transparent;
+    border-radius: calc(42/(var(--baseWidth))*100vw);
+    border: solid 1px var(--base-yellow);
+    font-family: 'SFPro';
+    font-size: calc(19/(var(--baseWidth))*100vw);
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+    .PollItem-Votebutton:hover{
+        color: #1B1B1B;
+        background-color: var(--base-yellow);
+    }
+
+
+/* VOTE CONFIRMATION */
+
+.PollItem-votedcolor {
+    background-color: #898989;
+    border-radius: calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw);
+}
+
+#VoteConfirm{
+    display:none;
+}
+
+.PollItemVoteConfirmationText {
+    margin-top: 37vw;
+    margin-left: 38vw;
+    width: 24vw;
+    padding: 1vw;
+    background-color: var(--base-yellow);
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    font-size: calc(30/(var(--baseWidth))*100vw);
+    color: #2D2D2D;
+    text-align: center;
+    /* border-radius: 50% 50% 50% 50%; */
+    border-radius: calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw) calc(50/(var(--baseWidth))*100vw);
+}
+
+/* OPTIONAL SCROLL BAR IF MANY LIVEPOLL ITEMS */
+.PollItem-Container::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+
+.PollItem-Container::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.PollItem-Container::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 12px none #ffffff;
+    border-radius: 21px;
+}
+
+    .PollItem-Container::-webkit-scrollbar-thumb:hover {
+        background: #ffffff;
+    }
+
+    .PollItem-Container::-webkit-scrollbar-thumb:active {
+        background: #808080;
+    }
+
+.PollItem-Container::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 48px;
+}
+
+    .PollItem-Container::-webkit-scrollbar-track:hover {
+        background: #666666;
+    }
+
+    .PollItem-Container::-webkit-scrollbar-track:active {
+        background: #333333;
+    }
+
+.PollItem-Container::-webkit-scrollbar-corner {
+    background: transparent;
+}

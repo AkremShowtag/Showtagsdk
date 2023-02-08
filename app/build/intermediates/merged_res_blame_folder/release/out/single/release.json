@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_border.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/border.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/layout_activity_player.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/layout_activity_listofprograms.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/layout/activity_listofprograms.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/anim_scale_in_tv.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/anim/scale_in_tv.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/anim_scale_out_tv.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/anim/scale_out_tv.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_pause.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/pause.png"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/layout_layout_listitem.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/layout/layout_listitem.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_image2.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/image2.png"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_cart.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/cart.png"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_logo.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/logo.png"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_image.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/image.png"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_play.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/play.png"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/layout_activity_login.xml.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tvapp.showtagtv.app-merged_res-29:/drawable_image3.png.flat",
+        "source": "com.tvapp.showtagtv.app-main-30:/drawable/image3.png"
+    }
+]
