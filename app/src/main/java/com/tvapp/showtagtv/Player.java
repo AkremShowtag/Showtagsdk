@@ -92,6 +92,10 @@ public class Player extends Activity {
 
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
+        exoPlayerView.showController();
+        if(webView.getVisibility()==View.INVISIBLE){
+            return super.dispatchKeyEvent(event);
+        }
         return obj.navigation(event,false);
     }
 
@@ -152,6 +156,7 @@ public class Player extends Activity {
 
             // we are adding our track selector to exoplayer.
             exoPlayer = ExoPlayerFactory.newSimpleInstance(this, trackSelector);
+
             //exoPlayer.addListener(new ExoPlayerListener(cart));
             // we are parsing a video url
             obj = new Showtag(webView,exoPlayer,exoPlayerView,cart,videoURL,programCode,getBaseContext());
@@ -198,6 +203,7 @@ public class Player extends Activity {
                             @Override
                             public void run() {
                                 cart.setVisibility(View.INVISIBLE);
+
                             }
                         });
                     } else if (playWhenReady) {
@@ -208,7 +214,7 @@ public class Player extends Activity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                cart.setVisibility(View.VISIBLE);
+                                 cart.setVisibility(View.VISIBLE);
                             }
                         });
                     }

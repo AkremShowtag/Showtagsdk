@@ -4,7 +4,7 @@
             "outputFile": "com.tvapp.showtagtv.app-mergeDebugResources-28:/values-uz-rUZ/values-uz-rUZ.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\3f8f8c531a6f924f37c751dc5b3d1ca9\\transformed\\jetified-exoplayer-ui-r2.4.0\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
+                    "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\e7ce0cddfd1727a960acf06ea1f5b458\\transformed\\jetified-exoplayer-ui-r2.4.0\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

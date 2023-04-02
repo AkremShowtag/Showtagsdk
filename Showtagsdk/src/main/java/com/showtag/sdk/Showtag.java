@@ -122,11 +122,12 @@ public class Showtag {
                 webview.setVisibility(View.INVISIBLE);
             }
 
+
+
             @Override
             public void onPageFinished(WebView webview, String url) {
 
                 webview.setVisibility(View.INVISIBLE);
-                Log.d("seeer","s");
                 webview.loadUrl("javascript:var video = videojs('my-player_html5_api');");
                 webview.loadUrl("javascript:const startEvent = new CustomEvent('test',{'detail':{'studio':true,'designer':false,'url':"+"'"+videoURL+ "'"+",'videoId':"+"'"+programCode+"','width':'960px','idUser':'testuser'}} ); document.dispatchEvent(startEvent);");
                 //webView.loadUrl("javascript:Player.play();");
@@ -456,7 +457,7 @@ public class Showtag {
                             exoPlayerView.setVisibility(View.VISIBLE);
                             exoPlayerView.setLayoutParams(param);
                             exoPlayer.setPlayWhenReady(true);
-                            //webView.setVisibility(View.INVISIBLE);
+                            webView.setVisibility(View.INVISIBLE);
                             webView.setLayoutParams(param2);
                         }
                     });
@@ -464,6 +465,7 @@ public class Showtag {
             }
         }else{
             return returnStatment;
+
         }
         return true;
     }

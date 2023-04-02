@@ -4,23 +4,6 @@
             "outputFile": "com.tvapp.showtagtv.app-mergeDebugResources-28:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\3f8f8c531a6f924f37c751dc5b3d1ca9\\transformed\\jetified-exoplayer-ui-r2.4.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,191,255,318,388,453",
-                        "endColumns": "69,65,63,62,69,64,62",
-                        "endOffsets": "120,186,250,313,383,448,511"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "3221,3291,3357,3421,3484,3554,3619",
-                        "endColumns": "69,65,63,62,69,64,62",
-                        "endOffsets": "3286,3352,3416,3479,3549,3614,3677"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\c61287263f7ce0bc369b924eb1beec7d\\transformed\\core-1.7.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
@@ -35,6 +18,23 @@
                         "startOffsets": "11069",
                         "endColumns": "100",
                         "endOffsets": "11165"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\e7ce0cddfd1727a960acf06ea1f5b458\\transformed\\jetified-exoplayer-ui-r2.4.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,191,255,318,388,453",
+                        "endColumns": "69,65,63,62,69,64,62",
+                        "endOffsets": "120,186,250,313,383,448,511"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "3221,3291,3357,3421,3484,3554,3619",
+                        "endColumns": "69,65,63,62,69,64,62",
+                        "endOffsets": "3286,3352,3416,3479,3549,3614,3677"
                     }
                 },
                 {

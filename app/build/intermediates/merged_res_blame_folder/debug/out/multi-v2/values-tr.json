@@ -4,23 +4,6 @@
             "outputFile": "com.tvapp.showtagtv.app-mergeDebugResources-28:/values-tr/values-tr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\3f8f8c531a6f924f37c751dc5b3d1ca9\\transformed\\jetified-exoplayer-ui-r2.4.0\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,132,206,276,340,417,488",
-                        "endColumns": "76,73,69,63,76,70,66",
-                        "endOffsets": "127,201,271,335,412,483,550"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "3393,3470,3544,3614,3678,3755,3826",
-                        "endColumns": "76,73,69,63,76,70,66",
-                        "endOffsets": "3465,3539,3609,3673,3750,3821,3888"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\c61287263f7ce0bc369b924eb1beec7d\\transformed\\core-1.7.0\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2",
@@ -71,6 +54,23 @@
                         "startOffsets": "270,384,483,595,680,786,906,986,1061,1152,1245,1337,1431,1531,1624,1726,1821,1912,2003,2082,2189,2293,2389,2496,2599,2708,2864,12103",
                         "endColumns": "113,98,111,84,105,119,79,74,90,92,91,93,99,92,101,94,90,90,78,106,103,95,106,102,108,155,97,79",
                         "endOffsets": "379,478,590,675,781,901,981,1056,1147,1240,1332,1426,1526,1619,1721,1816,1907,1998,2077,2184,2288,2384,2491,2594,2703,2859,2957,12178"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mega-PC\\.gradle\\caches\\transforms-3\\e7ce0cddfd1727a960acf06ea1f5b458\\transformed\\jetified-exoplayer-ui-r2.4.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,206,276,340,417,488",
+                        "endColumns": "76,73,69,63,76,70,66",
+                        "endOffsets": "127,201,271,335,412,483,550"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "3393,3470,3544,3614,3678,3755,3826",
+                        "endColumns": "76,73,69,63,76,70,66",
+                        "endOffsets": "3465,3539,3609,3673,3750,3821,3888"
                     }
                 },
                 {

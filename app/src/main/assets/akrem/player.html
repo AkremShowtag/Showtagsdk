@@ -1,4 +1,5 @@
-﻿<html>
+﻿
+<html>
 <head>
     <style>
       iframe {
@@ -11,7 +12,7 @@
         rel="stylesheet"
 />
 
-<body style="margin: 0px">
+<body style="margin: 0px; overflow: hidden;"  focusable="false"  >
 <div id="videoContainer" style="width: 00px"></div>
 
 <script>
@@ -27,6 +28,8 @@
       var x = document.createElement("iframe");
       x.setAttribute("style", "position: absolute;");
       x.setAttribute("id", "videoWrapper");
+      //com.github.AkremShowtag:showtagsdk:1.0
+
       // x.setAttribute(
       //   "srcdoc",
       //   '<video autoplay style="height:550px;" style="pointer-events: none;" data-config=' +
@@ -46,6 +49,7 @@
       };
     </script>
 <video
+        muted="true"
         style="height: 550px; width: 960px"
         data-config='{"studio":true,"designer":true,"url":"https://tag2081.showtagenabled.com/programs/legobatman001-2081/legobatman001-2081.mp4","videoId":"legobatman001-2081","width":"960px","idUser":"testuser"}'
         id="my-player"
